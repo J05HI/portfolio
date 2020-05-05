@@ -130,6 +130,7 @@ export default {
 
   plugins: ['@/plugins/composition-api'],
   modules: [
+    '@nuxtjs/pwa',
     'nuxt-payload-extractor',
     ['nuxt-matomo', { matomoUrl: '//analytics.simonwuyts.eu/', siteId: 1 }],
     ['@nuxtjs/feed'],

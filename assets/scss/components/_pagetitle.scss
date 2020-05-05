@@ -20,13 +20,6 @@
   top: 0;
 }
 
-.c-title__inner {
-  background: linear-gradient(to top, var(--blue-500), var(--blue-500)) repeat-x
-    left 1.13em / 100% 0.4rem;
-  filter: url('#titleFilter');
-  transform: translate(0, 0);
-}
-
 @media (max-width: 40em) {
   .c-title__inner {
     background-size: 100% 0.3rem;

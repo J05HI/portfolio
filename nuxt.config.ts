@@ -132,7 +132,7 @@ export default {
   modules: [
     '@nuxtjs/pwa',
     'nuxt-payload-extractor',
-    ['nuxt-matomo', { matomoUrl: '//analytics.simonwuyts.eu/', siteId: 1 }],
+    // ['nuxt-matomo', { matomoUrl: '//analytics.simonwuyts.eu/', siteId: 1 }],
     ['@nuxtjs/feed'],
     'nuxt-svg-loader',
     '@nuxtjs/sitemap'

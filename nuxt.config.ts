@@ -53,7 +53,8 @@ const getDynamicRoutes = async () => {
 }
 
 export default {
-  mode: 'universal',
+  // mode: 'universal',
+  target: 'static',
 
   head: {
     titleTemplate: '%s - Simon Wuyts',
@@ -131,7 +132,7 @@ export default {
   plugins: ['@/plugins/composition-api'],
   modules: [
     '@nuxtjs/pwa',
-    'nuxt-payload-extractor',
+    // 'nuxt-payload-extractor',
     // ['nuxt-matomo', { matomoUrl: '//analytics.simonwuyts.eu/', siteId: 1 }],
     ['@nuxtjs/feed'],
     'nuxt-svg-loader',

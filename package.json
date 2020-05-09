@@ -8,7 +8,8 @@
     "serve": "nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
-    "generate": "nuxt-ts generate"
+    "generate": "nuxt-ts generate",
+    "static": "nuxt-ts build && nuxt-ts export"
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.2.2",
@@ -22,7 +23,7 @@
     "cross-env": "^5.2.0",
     "date-fns": "^2.7.0",
     "node-sass": "^4.13.0",
-    "nuxt": "^2.11.0",
+    "nuxt-edge": "latest",
     "nuxt-matomo": "^1.2.3",
     "prismjs": "^1.19.0"
   },

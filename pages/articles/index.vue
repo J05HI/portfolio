@@ -14,7 +14,7 @@
     <s-link-list>
       <s-link-list-item
         :class="`enter-fade-up enter-delay-${index + 1}`"
-        :to="`articles/${article.slug}`"
+        :to="`/articles/${article.slug}`"
         :subtitle="formatDate(article.date)"
         v-for="(article, index) in articles"
         :key="article.id"
